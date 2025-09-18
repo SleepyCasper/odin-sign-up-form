@@ -91,3 +91,45 @@ summary {
 
 /*////////////////////////////////////////////////////////*/
 
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.container-bg {
+    width: 35vw;
+    min-width: fit-content;
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-bg-logo {
+    background-color: hsla(0, 0%, 0%, 0.528);
+    display: flex;
+    align-items: center;
+    margin-top: 20vh;
+    padding: 0.5rem;
+    justify-content: center;
+}
+
+.logo-text {
+    font-size: 4rem;
+}
+
+img {
+    height: 6rem;
+}
+
+.container-main {
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-inputs {
+    box-shadow: black 2px 2px 2px;
+    padding: 1rem 5rem 2rem 2rem;
+}

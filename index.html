@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sing up form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container-bg">
+        <div class="container-bg-logo">
+            <img src="img/odin-logo.png" alt="odin logo">
+            <div class="logo-text">ODIN</div>
+        </div>
+    </div>
+
+    <div class="container-main">
+        <div class="text">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+            <p>Sign up now to get started.</p>
+        </div>
+        <form action="#" method="get">
+            <div class="container-inputs">
+                <legend>Let's do this!</legend>
+
+                <label for="first-name">First name</label>
+                <input type="text" name="first-name" id="first-name" required>
+
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="first-name" required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="number">Phone number</label>
+                <input type="number" name="number" id="number" required>
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+
+                <label for="password-confirm">Confirm password</label>
+                <input type="password" name="password-confirm" id="password-confirm" required>
+            </div>
+
+            <button type="submit">Create Account</button>
+        </form>
+
+        <p class="log-in">Already have an account? <a href="#">Log in</a></p>
+    </div>
 </body>
 </html>
