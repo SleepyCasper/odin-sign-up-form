@@ -112,6 +112,7 @@ body {
 }
 
 .container-bg {
+    position: relative;
     width: clamp(13rem, 30vw, 40vw);
     background-image: url(img/bg.jpg);
     background-position: center;
@@ -132,6 +133,21 @@ body {
     font-family: 'Norse', sans-serif;
     font-size: 4.5rem;
     color: white;
+}
+
+.container-bg a {
+    color: white;
+    font-weight: bold;
+}
+
+.credit {
+    color: white;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 0.5em;
+    left: 0.5em;
+    right: 0.5em;
+    text-align: center;
 }
 
 img {
